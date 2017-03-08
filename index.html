@@ -26,17 +26,19 @@
   						<div class="panel-body">
 							<form class="form-horizontal">
 								<label for="search-input"">Search Term:</label>
-        						<input type="text" class="form-control" id="search-input">
+        						<input type="text" class="form-control" id="search-input"><br>
         						<label for="number-input" class="control-label">Number of Records to Retrieve:</label>
-        						<label for="select" >Selects</label>
-      <div class="col-lg-10">
-        <select class="form-control" id="select">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
+									<select class="form-control" id="select">
+							          <option>1</option>
+							          <option>5</option>
+							          <option>10</option>
+        							</select><br>
+        						<label for="search-input"">Start Year (Optional):</label>
+        						<input type="text" class="form-control" id="start-year-input"><br>
+        						<label for="search-input"">End Year (Optional):</label>
+        						<input type="text" class="form-control" id="end-year-input"><br>
+        						<button id="submitBtn" type="submit" class="btn btn-primary"><span class="icon-search"> </span>Submit</button>
+        						<button id="clearResultsBtn" type="reset" class="btn btn-default"><span class="icon-cross"> </span>Clear Results</button>
 							</form>
   						</div>
 					</div>
@@ -54,6 +56,5 @@
 			</div>
 		</div>
 		<script src="assets/javascript/jquery.js"></script> 
-		<script type="text/javascript" src="assets/javascript/app.js"></script>
 	</body>
 </html>
