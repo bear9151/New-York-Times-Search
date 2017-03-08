@@ -1,1 +1,1 @@
-# New-York-Times-Search
+# week-6-giphy-api
